@@ -1,0 +1,284 @@
+div.btn {
+	display: inline-block;
+	border: 2px solid #ccc;
+	margin-right: 5px;
+	padding: 2px 5px;
+	cursor: pointer;
+}
+
+div.btn.on {
+	background-color: #777;
+	color: white;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	zoom: 87%;
+}
+
+.websitename {
+	font-family: 'Dancing Script', cursive;
+}
+
+.brand-logo {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+}
+
+.fontpoppins {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+}
+
+.cardpic {
+	width: 100%;
+	height: 25;
+}
+
+.bodytext {
+	font-family: 'Poppins', sans-serif;
+	font-size: x-large;
+	font-weight: 800;
+	text-align: center;
+}
+
+.hamburgertext {
+	font-family: 'Poppins', sans-serif;
+	font-size: medium;
+	font-weight: 900;
+}
+
+.footertxt {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+.fixed-action-btn {
+	right: auto;
+	margin-left: 5%;
+}
+
+.searchbar {
+	max-width: 1000px;
+	margin: auto;
+	text-align: center;
+	width: 67%;
+	font-family: 'Poppins', sans-serif;
+}
+
+.card {
+	display: block;
+	border-radius: 15px;
+}
+
+.card .card-action:last-child {
+    border-radius: 0 0 5px 5px;
+}
+
+.overlay {
+	margin: auto;
+	margin-top: 150px;
+	text-align: center;
+	width: 54%;
+	max-width: 1000px;
+	background-color: #f17472c9;
+	border-style: double;
+	border-width: 3.5px;
+	border-radius: 10px;
+	border-color: white;
+	font-family: 'Dancing Script', cursive;
+	padding-bottom: 20px;
+}
+
+.overlay2 {
+	margin: auto;
+	margin-top: 150px;
+	margin-bottom: 150px;
+	text-align: center;
+	width: 70%;
+	max-width: 10000px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+	max-width: 900px;
+	background-color: #e57373;
+	border-style: double;
+	border-width: 3.5px;
+	border-radius: 10px;
+	border-color: white;
+	padding-bottom: 20px;
+}
+
+#ingredients-list,
+#instructionsF {
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+	font-size: medium;
+}
+
+.instructiontext {
+	font-size: large;
+}
+
+.recipeimg {
+	max-width: 400px;
+	height: 40%;
+	width: auto;
+	display: block;
+	margin: auto;
+}
+
+.recipecard {
+	border-radius: 10px;
+	opacity: .9;
+}
+
+.card-title {
+	border-radius: 10px;
+}
+
+.card .card-image img {
+	border-radius: 7px;
+}
+
+.recipetxt {
+	padding: 20px;
+}
+
+.recipetitletxt {
+	font-family: 'Dancing Script', cursive;
+	background-color: white;
+}
+
+.recipebox {
+	background-color: black;
+}
+
+.recipetitletxt {
+	padding-top: 15px;
+}
+
+.card .card-content p {
+	margin: 20px;
+}
+
+/* .card .card-content {
+	padding-top: 10px;
+} */
+
+.spaceburger {
+	padding-left: 16px;
+}
+
+.row {
+	margin-top: 30px;
+}
+
+.flagimg {
+	width: 100%;
+	height: 100%;
+	max-width: 80px;
+	margin: 6px;
+	align-items: center;
+}
+
+.flagimg:hover {
+	opacity: .7;
+	cursor: grab;
+}
+
+.foodimg2 {
+	border: 1px solid rgba(0, 0, 0, 0.651);
+	border-radius: 50%;
+	width: 9%;
+	height: 9%;
+	margin: 20px 10px 0px 10px;
+	align-items: center;
+}
+
+.foodimg2:hover {
+	background-color: black;
+	opacity: .7;
+	cursor: grab;
+}
+
+.recipedetails {
+	font-size: x-small;
+}
+
+.centered {
+	position: absolute;
+	top: 55%;
+	left: 49%;
+	transform: translate(-50%, -50%);
+	font-family: 'Poppins', sans-serif;
+	font-weight: 900;
+}
+
+#ingredients-list {
+	font-size: small;
+}
+
+.chip {
+	font-weight: 900;
+	color: black;
+}
+
+.chip img {
+	width: 32px;
+	height: 32px;
+}
+
+.dropdown-content {
+	top: 23% !important;
+}
+
+.parallax-container2 {
+	height: 100%;
+	background-size: 60%;
+	min-height: 1100px;
+}
+
+.switch label input[type=checkbox]:checked+.lever:after {
+	background-color: white !important;
+}
+
+.switch label input[type=checkbox]:checked+.lever {
+	background-color: white !important;
+}
+
+.iconspc {
+	margin: 3px;
+	margin-right: 5px;
+	font-weight: 500;
+}
+
+.bold2 {
+	font-weight: 900 !important;
+}
+
+@media screen and (max-width: 750px) {
+	.hidemedia {
+		visibility: hidden;
+
+	}
+
+	.hidemedia1 {
+		font-size: smaller;
+
+	}
+}
+
+@media screen and (max-width: 388px) {
+	.hidemedia1 {
+		font-size: large;
+
+	}
+}
+
+@media screen and (max-width: 345px) {
+	.hidemedia1 {
+		font-size: medium;
+
+	}
+}

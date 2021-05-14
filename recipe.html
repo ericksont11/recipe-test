@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+   <!--Import Google Icon Font-->
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <!--Import materialize.css-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+   <link rel="stylesheet" href="./assets/style.css">
+   <link rel="preconnect" href="https://fonts.gstatic.com">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap">
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap">
+   <link rel="stylesheet" href="/assets/css/all.css">
+   <link rel="stylesheet" href="/assets/css/fontawesome.min.css">
+   <title>Recipe Website</title>
+   <link rel="icon" href="/assets/images/favicon-32x32.png">
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+
+   <!-- header with website name and navbar -->
+   <nav class="nav-extended">
+      <div class="nav-wrapper">
+         <a href="index.html" class="brand-logo center"><span id="header5" class="websitename hidemedia1">Global
+               Gastronomy</span></a>
+         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+         <ul class="right hide-on-med-and-down">
+            <li>
+               <span>
+                  <!-- Dropdown Trigger -->
+                  <a id="span1" class='dropdown-trigger ' href='#' data-target='dropdown2'>Favorites</a>
+                  <!-- Dropdown Structure -->
+                  <ul id='dropdown2' class='dropdown-content'>
+                     <li><a class="red-text bold2" href="#!">recipe example</a></li>
+                     <li><a class="red-text bold2" href="#!">recipe example</a></li>
+                     <li><a class="red-text bold2" href="#!">recipe example</a></li>
+                     <li><a class="red-text bold2" href="#!">recipe example</a></li>
+                     <li><a class="red-text bold2" href="#!">recipe example</a></li>
+                  </ul>
+               </span>
+            </li>
+            <li><a href="recipe.html"><span id="span2">Recipes</span></a></li>
+            <li><a href="#contacts"><span id="span3">Contacts</span></a></li>
+         </ul>
+         <!-- Switch to toggle language option icon bar to display and hide-->
+         <div class="switch">
+            <label>
+               <input id="check" type="checkbox" checked="checked">
+               <span class="lever"></span>
+            </label>
+            <span id="click1" class="hidemedia">Show Language Options</span>
+         </div>
+         <ul class="sidenav red lighten-2" id="mobile-demo">
+            <!-- Dropdown Trigger mobile -->
+            <a id="span1" class='dropdown-trigger ' href='#' data-target='dropdown1'>Favorites</a>
+            <!-- Dropdown Structure mobile-->
+            <ul id='dropdown1' class='dropdown-content'>
+               <li><a class="red-text bold2" href="#!">recipe example</a></li>
+               <li><a class="red-text bold2" href="#!">recipe example</a></li>
+               <li><a class="red-text bold2" href="#!">recipe example</a></li>
+               <li><a class="red-text bold2" href="#!">recipe example</a></li>
+               <li><a class="red-text bold2" href="#!">recipe example</a></li>
+            </ul>
+            </span>
+            </li>
+            <li class="white-text"><a href="recipe.html"><span id="span2" class="white-text bold2">Recipes</span></a>
+            </li>
+            <li><a href="#contacts"><span id="span3" class="white-text bold2">Contacts</span></a></li>
+         </ul>
+         </ul>
+         <div class="nav-wrapper hidenav">
+            <!-- language option icons with onclick function to change language of text on page -->
+            <div class="center">
+               <input type="image" value="EN" src="./assets/images/united-kingdom.png"
+                  class="flagimg translateButton" />
+               <input type="image" value="FR" src="./assets/images/france.png" class="flagimg translateButton" />
+               <input type="image" value="ES" src="./assets/images/spain2.png" class="flagimg translateButton" />
+               <input type="image" value="NL" src="./assets/images/netherlands.png" class="flagimg translateButton" />
+               <input type="image" value="AR" src="./assets/images/arabic.png" class="flagimg translateButton" />
+               <input type="image" value="ZH" src="./assets/images/china.png" class="flagimg translateButton" />
+               <input type="image" value="DE" src="./assets/images/german.png" class="flagimg translateButton" />
+               <input type="image" value="EL" src="./assets/images/greece.png" class="flagimg translateButton" />
+               <input type="image" value="HE" src="./assets/images/israel.png" class="flagimg translateButton" />
+               <input type="image" value="HI" src="./assets/images/india.png" class="flagimg translateButton" />
+               <input type="image" value="ID" src="./assets/images/indonesia.png" class="flagimg translateButton" />
+               <input type="image" value="IT" src="./assets/images/italy.png" class="flagimg translateButton" />
+               <input type="image" value="JA" src="./assets/images/japan.png" class="flagimg translateButton" />
+               <input type="image" value="KO" src="./assets/images/korea.png" class="flagimg translateButton" />
+               <input type="image" value="PT" src="./assets/images/portuguese.png" class="flagimg translateButton" />
+               <input type="image" value="RU" src="./assets/images/russia.png" class="flagimg translateButton" />
+               <input type="image" value="TH" src="./assets/images/thai.png" class="flagimg translateButton" />
+               <input type="image" value="VI" src="./assets/images/vietnam.png" class="flagimg translateButton" />
+            </div>
+         </div>
+   </nav>
+   <!-- parallax container for the background -->
+   <div class="parallax-container parallax-container2">
+      <div class="parallax"><img id="backgroundimg" src="assets/images/spiceboard.jpg"></div>
+      <div class="overlay2">
+
+         <!-- This is a set of icons that have onclick functionality to change recipe just like alexis' code above -->
+         <input type="image" src="./assets/images/Croissant icon.JPG" class="foodimg2 french-recipe"
+            id="french-recipe" />
+         <input type="image" src="./assets/images/spaghetti icon.JPG" class="foodimg2" id="italian-recipe" />
+         <input type="image" src="./assets/images/taco icon.JPG" class="foodimg2" id="mexican-recipe" />
+         <input type="image" src="./assets/images/sushi.jpg" class="foodimg2" id="japanese-recipe" />
+         <input type="image" src="./assets/images/nasi.jpg" class="foodimg2" id="malaysian-recipe" />
+         <input type="image" src="./assets/images/greek.JPG" class="foodimg2" id="greek-recipe" />
+         <div class="row" id="clearRecipeCard">
+            <div class="col s12 m12">
+               <div class="card white darken-1 recipecard">
+                  <button class="btn-floating btn-large pulse halfway-fab pink accent-2"><i
+                        class="large material-icons">favorite</i></button>
+                  <!-- this is where your javascript should display the recipe title -->
+                  <div class="card-title white recipetitletxt" id="recipe-title"></div>
+                  <div class="card-image">
+                     <div class="card-content  w black-text ">
+                        <!-- this is where the image of the recipe shows -->
+                        <img class="recipeimg" id="recipe-img" src="./assets/images/cuttingboardknife.jpg">
+                        <!-- this is where the javascript displays ingredients -->
+                        <div id="ingredients-list">
+                           <ul></ul>
+                        </div>
+                        <!-- this is where javascript displays recipe instructions -->
+                        <p class="recipetxt" id="instructions"></p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+         </p>
+      </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   </div>
+   <!-- this is the footer to show creators, and links to their git/socialmedia/email -->
+   <footer class="page-footer">
+      <div class="container"></div>
+      <div class="container">
+         <div class="row">
+            <div id="#contacts" class="col m6 s12 ">
+               <h5 id="contacts1" class="white-text ">Created By</h5>
+               <ul id="contacts" class="footertxt">
+                  <li> <a class="fab fa-github fa-lg black-text iconspc" href="https://github.com/Tmaxey201"></a> <a
+                        class="fas fa-envelope fa-lg white-text iconspc" href="mailto:tmaxey201@gmail.com"></a><span
+                        class="iconspc">Thomas Maxey</span></li>
+                  <li> <a class="fab fa-github fa-lg black-text iconspc" href="https://github.com/alexisligon"></a> <a
+                        class="fas fa-envelope fa-lg white-text iconspc" href="mailto:tmaxey201@gmail.com"></a><span
+                        class="iconspc">Alexis Ligon</span></li>
+                  <li> <a class="fab fa-github fa-lg black-text iconspc" href="https://github.com/Nvaldovinos"></a> <a
+                        class="fas fa-envelope fa-lg white-text iconspc" href="mailto:tmaxey201@gmail.com"></a><span
+                        class="iconspc">Naomi Valdovinos</span></li>
+               </ul>
+            </div>
+            <div class="col m6 s12">
+               <h5 id="contacts2" class="white-text">Created With</h5>
+               <ul>
+                  <li><a href="https://cloud.google.com/translate" class="white-text iconspc"> Translate API</a>
+                  </li>
+                  <li><a href="https://www.themealdb.com/api.php" class="white-text iconspc"> Recipe API</a>
+                  </li>
+                  <li><a href="https://materializecss.com/" class="white-text iconspc"> Materialize CSS</a>
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <div class="footer-copyright">
+         <div class="container">
+            © 2021 Copyright
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+         </div>
+      </div>
+   </footer>
+</body>
+
+</html>
+<!--JavaScript at end of body for optimized loading-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="assets/script.js"></script>
+<script src="./assets/translate.js"></script>
+<script src="recipe.js"></script>
+<script src="recipe2.js"></script>
